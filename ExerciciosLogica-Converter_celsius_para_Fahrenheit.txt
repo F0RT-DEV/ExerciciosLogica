@@ -1,0 +1,11 @@
+Exercicio de Logica converte celsius para fahrenheit
+
+1 - infome uma temperatura
+
+2 - pegue a temperatura em celsius e mutiplique por 9
+
+3 - agora divida por 5 
+
+4 - some o valor da divisão por 32
+
+5 - a converção de celsius para fahrenheit.

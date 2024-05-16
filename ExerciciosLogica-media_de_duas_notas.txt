@@ -1,0 +1,9 @@
+Exercicio de Logica Meida de duas Notas
+
+1 - Informe suas notas da sua avaliação 1 e 2:
+
+2 - somar as duas notas
+
+3 - dividir a soma pela quantidade das notas
+
+4 - exibir as notas do aluno

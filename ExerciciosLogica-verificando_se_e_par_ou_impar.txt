@@ -1,0 +1,11 @@
+Exercicio de Logica verificando se o numero e par ou impar
+
+1 - infome um numero
+
+2 - agora aplique o modulo de 2
+
+3 - o resultado tem resto?
+
+4 - caso tenha resto é impar
+
+5 - se não tiver resto é par.

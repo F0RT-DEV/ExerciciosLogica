@@ -1,0 +1,20 @@
+Exercicio de Logica
+
+1-Separe os ingredientes/utencilios:
+Separe 5 laranjas 
+Pegue 5 colheres de açucar
+Separe 1L de agua
+Pegue uma jarra 
+pegue uma faca para corta as laranjas
+
+2 - Fazendo o suco
+adicione o 1L de agua na jarra
+com a faca corte todas as laranjas em duas fatias
+em seguida esprema as fatias de laranja na jarra
+depois acrescente as 5 colheres de açucar na jarra
+com a colher misture os ingredientes.
+
+3 - O suco diluiu?
+Se Sim: então beba o suco e seja feliz.
+Se não: Refaça o processo novamente.
+ 
