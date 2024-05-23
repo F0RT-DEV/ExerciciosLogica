@@ -1,0 +1,42 @@
+<script>
+    let preço_custo1 = parseFloat(prompt("informe o preço do custo"));
+    let preço_venda1 = parseFloat(prompt("informe o preço da venda"));
+    
+    let preço_custo2 = parseFloat(prompt("informe o preço do custo"));
+    let preço_venda2 = parseFloat(prompt("informe o preço da venda"));
+
+    /*if(preço_custo1 < preço_venda1 && preço_custo2 < preço_venda2){
+        alert("Houve lucro");
+    }
+    else if(preço_custo1 > preço_venda1 && preço_custo2 > preço_venda2){
+        alert("Houve prejuizo");
+    }
+    else{
+        alert("Houve empate");
+    }*/
+    
+    if(preço_custo1 > preço_venda1){
+        alert("Voce teve prejuizo no produto 1")
+    }
+    else if(preço_custo1 == preço_venda1){
+        alert("Voce teve com 0 com o produto 1");
+    }
+    else{
+        alert("Voce teve lucro com o produto 1")
+    }
+
+    if(preço_custo2 > preço_venda2){
+        alert("Voce teve prejuizo no produto 2")
+    }
+    else if(preço_custo2 == preço_venda2){
+        alert("Voce teve com 0 com o produto 2");
+    }
+    else{
+        alert("Voce teve lucro com o produto 2")
+    }
+
+    let media_custo = (preço_custo1+preço_custo2)/2;
+    let media_venda = (preço_custo1+preço_custo2)/2;
+
+    alert("Sua media de custo foi: "+((preço_custo1 + preço_custo2)/2)+" e sua media de venda foi: "+ media_venda);
+</script>
