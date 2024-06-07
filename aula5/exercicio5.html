@@ -1,0 +1,34 @@
+<script>
+    let nome = []
+    let sexo = []
+    let idade = []
+    let saudes = []
+
+    let aptas = 0;
+    let Nao_aptas
+
+    while(aptas !=1){
+        nome = prompt("Digite seu nome")
+        sexo = prompt("Digite M para masculino e F para feminino")
+        idade = parseInt(prompt("Digite sua idade"))
+        saude = prompt("Voce possui alguma deficiencia? Digite S ou N")
+
+        nome.push(nome)
+        sexo.push(sexo)
+        idade.push(idade)
+        saudes.push(saude)
+
+        aptas = parseInt(prompt("digite S para continuar ou N para encerrar"))
+
+        if(sexo == "M" && idade >=18 && saude == "N" && nome != "Enzo"){
+            aptas++
+        }
+       else if(sexo == "F" && idade >=18 && saude == "N" && nome != "Enzo"){
+            aptas++
+        }else{
+        Nao_aptas++
+       }
+    }
+    alert("Pessoas Aptas "+aptas+"\n"+"Pessoas não aptas "+Nao_aptas)
+    
+</script>

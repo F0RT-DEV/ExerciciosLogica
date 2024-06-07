@@ -1,0 +1,22 @@
+<script>
+    let colecao = []
+    let escolha = 0;
+
+    do{
+        escolha = parseInt(prompt("Digite 1 para adicionar um novo campeao \n digite 2 para mostrar os campeos \n digite zero para sair"))
+
+        switch(escolha){
+            case 1:
+                colecao.push(prompt("digite um novo campeao"))
+                break;
+            case 2: 
+                colecao.join("/n")
+                break;
+            case 0:
+                alert("Você saiu da aplicacao")
+                break;
+            default:
+                alert("Digite um numero valido")
+        }
+    }while(escolha !=0);
+</script>
