@@ -1,0 +1,35 @@
+<script>
+let mediasalario = 0;
+let mediafilhos = 0;
+let maiorsalario = 0;
+let persentualsalario = 0;
+
+let salarioatual = 0;
+let numerodpessoas= 0;
+let numerosfilhos = 0;
+
+do{
+    numerodpessoas++
+    salarioatual = parseFloat(prompt("digite seu salario"));
+    salarioatual = parseInt(prompt("quantos filhos você tem"));
+    
+    if(salarioatual > maiorsalario){
+        maiorsalario += salarioatual;
+    }
+
+    if(salarioatual > 100){
+        persentualsalario++
+    }
+    
+    mediasalario = salarioatual++
+    mediasalario = salarioatual/numerodpessoas
+    mediafilhos = numerosfilhos/numerodpessoas
+}
+while(salarioatual < 0){
+
+}
+
+alert("Media do salario da populacao "+mediasalario+" A maior salario foi de "+maiorsalario+" a media do numeros de filhos"+mediafilhos+ " e o persentual de pessoas com salarios acima de 100 "+
+persentualsalario)
+
+</script>

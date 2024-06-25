@@ -1,0 +1,38 @@
+<script>
+  
+    let Cadastrar = 0
+    let venda = 0
+    let reabastecer = 0
+
+    do{ let Cadastro = {}
+        alert("Informe Nome, Preço, Qtd em estoque e fornecedor para casdastrar o produto")
+        Cadastrar.Nome = prompt("Nome do produto?")
+        Cadastrar.Preco = parseFloat(prompt("Preço do produto?"))
+        Cadastrar.Qtd = parseInt(prompt("Quantidade em estoque?"))
+        Cadastrar.Fornecedor = prompt("Fornecedor do produto?")
+
+        if(cadastro){
+            alert("Produto cadastrado!")
+            alert("Nome do produto: "+Cadastro.Nome+"/n Preço do produto: "+Cadastro.Preco
+            +"/n Quantidade em Estoque: "+Cadastro.Qtd+"/n Fornecedor: "+Cadastro.Fornecedor)
+        }else{
+            alert("Erro ao cadastrar produto")
+        }
+
+        let vender = {}
+        alert("Informe qual é o prodruto que deseja vender")
+        vender.Nome = prompt("Nome do produto?")
+        vender.Qtd = parseInt(Prompt("Quantidade em estoque?"))
+        vender.Valor = parseFloat(Prompt("Quantidade em estoque?"))
+        vender.Fornecedor = Prompt("Quantidade em estoque?")
+
+        if(vender.Qtd <= Cadastrar.Qtd){
+            alert("Venda realizada com sucesso!")
+            alert("Quantidade vendida : " +vender.Qtd+ "\n Valor total da venda : R$" +vender.Valor.toFixed(2))
+            Cadastrar.Qtd -= vender.Qtd
+        }else{
+            alert("Quantidade em estoque insuficiente")
+        }
+     }
+     while(true)
+</script>
