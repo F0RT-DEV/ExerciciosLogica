@@ -1,0 +1,25 @@
+<script>
+    
+    let palavra = ["pedro", "joao", "fortao", "detroit", "tecnico"]
+    let palavraEscolhida = palavra[Math.floor(Math.random() * palavra.length)]
+    
+jogar()
+   
+   function embaralharpalavra(){
+    let palavraembaralhada = palavraEscolhida.split('').sort()
+    let a = palavraembaralhada.join("")
+    return a
+   }
+   
+   
+    function jogar(){
+    let mepassaandre = prompt("digite uma palavra baseada no anagrama a seguir: " + embaralharpalavra());
+    if(mepassaandre == palavraEscolhida){
+        alert("resposta correta");
+        
+    }
+    else{
+        alert("resposta errada")
+    }
+    }
+</script>
